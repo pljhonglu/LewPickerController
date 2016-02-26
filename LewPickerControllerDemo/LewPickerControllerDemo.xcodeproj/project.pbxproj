@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECE06F21C7FFCD5000B0EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE06F11C7FFCD5000B0EFD /* main.m */; };
+		FECE06F51C7FFCD5000B0EFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE06F41C7FFCD5000B0EFD /* AppDelegate.m */; };
+		FECE06F81C7FFCD5000B0EFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE06F71C7FFCD5000B0EFD /* ViewController.m */; };
+		FECE06FB1C7FFCD5000B0EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECE06F91C7FFCD5000B0EFD /* Main.storyboard */; };
+		FECE06FD1C7FFCD5000B0EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECE06FC1C7FFCD5000B0EFD /* Assets.xcassets */; };
+		FECE07001C7FFCD5000B0EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECE06FE1C7FFCD5000B0EFD /* LaunchScreen.storyboard */; };
+		FECE070A1C7FFCE0000B0EFD /* LewPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FECE07091C7FFCE0000B0EFD /* LewPickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FECE06ED1C7FFCD5000B0EFD /* LewPickerControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LewPickerControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECE06F11C7FFCD5000B0EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FECE06F31C7FFCD5000B0EFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FECE06F41C7FFCD5000B0EFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FECE06F61C7FFCD5000B0EFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FECE06F71C7FFCD5000B0EFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FECE06FA1C7FFCD5000B0EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FECE06FC1C7FFCD5000B0EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FECE06FF1C7FFCD5000B0EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FECE07011C7FFCD5000B0EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECE07081C7FFCE0000B0EFD /* LewPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LewPickerController.h; sourceTree = "<group>"; };
+		FECE07091C7FFCE0000B0EFD /* LewPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LewPickerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FECE06EA1C7FFCD5000B0EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FECE06E41C7FFCD5000B0EFD = {
+			isa = PBXGroup;
+			children = (
+				FECE07071C7FFCE0000B0EFD /* LewPickerController */,
+				FECE06EF1C7FFCD5000B0EFD /* LewPickerControllerDemo */,
+				FECE06EE1C7FFCD5000B0EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FECE06EE1C7FFCD5000B0EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FECE06ED1C7FFCD5000B0EFD /* LewPickerControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FECE06EF1C7FFCD5000B0EFD /* LewPickerControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FECE06F31C7FFCD5000B0EFD /* AppDelegate.h */,
+				FECE06F41C7FFCD5000B0EFD /* AppDelegate.m */,
+				FECE06F61C7FFCD5000B0EFD /* ViewController.h */,
+				FECE06F71C7FFCD5000B0EFD /* ViewController.m */,
+				FECE06F91C7FFCD5000B0EFD /* Main.storyboard */,
+				FECE06FC1C7FFCD5000B0EFD /* Assets.xcassets */,
+				FECE06FE1C7FFCD5000B0EFD /* LaunchScreen.storyboard */,
+				FECE07011C7FFCD5000B0EFD /* Info.plist */,
+				FECE06F01C7FFCD5000B0EFD /* Supporting Files */,
+			);
+			path = LewPickerControllerDemo;
+			sourceTree = "<group>";
+		};
+		FECE06F01C7FFCD5000B0EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FECE06F11C7FFCD5000B0EFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECE07071C7FFCE0000B0EFD /* LewPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				FECE07081C7FFCE0000B0EFD /* LewPickerController.h */,
+				FECE07091C7FFCE0000B0EFD /* LewPickerController.m */,
+			);
+			name = LewPickerController;
+			path = ../LewPickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FECE06EC1C7FFCD5000B0EFD /* LewPickerControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECE07041C7FFCD5000B0EFD /* Build configuration list for PBXNativeTarget "LewPickerControllerDemo" */;
+			buildPhases = (
+				FECE06E91C7FFCD5000B0EFD /* Sources */,
+				FECE06EA1C7FFCD5000B0EFD /* Frameworks */,
+				FECE06EB1C7FFCD5000B0EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LewPickerControllerDemo;
+			productName = LewPickerControllerDemo;
+			productReference = FECE06ED1C7FFCD5000B0EFD /* LewPickerControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FECE06E51C7FFCD5000B0EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pljhonglu;
+				TargetAttributes = {
+					FECE06EC1C7FFCD5000B0EFD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FECE06E81C7FFCD5000B0EFD /* Build configuration list for PBXProject "LewPickerControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FECE06E41C7FFCD5000B0EFD;
+			productRefGroup = FECE06EE1C7FFCD5000B0EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FECE06EC1C7FFCD5000B0EFD /* LewPickerControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FECE06EB1C7FFCD5000B0EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE07001C7FFCD5000B0EFD /* LaunchScreen.storyboard in Resources */,
+				FECE06FD1C7FFCD5000B0EFD /* Assets.xcassets in Resources */,
+				FECE06FB1C7FFCD5000B0EFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FECE06E91C7FFCD5000B0EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECE06F81C7FFCD5000B0EFD /* ViewController.m in Sources */,
+				FECE06F51C7FFCD5000B0EFD /* AppDelegate.m in Sources */,
+				FECE070A1C7FFCE0000B0EFD /* LewPickerController.m in Sources */,
+				FECE06F21C7FFCD5000B0EFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FECE06F91C7FFCD5000B0EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECE06FA1C7FFCD5000B0EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FECE06FE1C7FFCD5000B0EFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FECE06FF1C7FFCD5000B0EFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FECE07021C7FFCD5000B0EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FECE07031C7FFCD5000B0EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FECE07051C7FFCD5000B0EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LewPickerControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pljhonglu.LewPickerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FECE07061C7FFCD5000B0EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LewPickerControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pljhonglu.LewPickerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FECE06E81C7FFCD5000B0EFD /* Build configuration list for PBXProject "LewPickerControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECE07021C7FFCD5000B0EFD /* Debug */,
+				FECE07031C7FFCD5000B0EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECE07041C7FFCD5000B0EFD /* Build configuration list for PBXNativeTarget "LewPickerControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECE07051C7FFCD5000B0EFD /* Debug */,
+				FECE07061C7FFCD5000B0EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FECE06E51C7FFCD5000B0EFD /* Project object */;
+}
